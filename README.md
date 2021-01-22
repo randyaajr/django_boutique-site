@@ -31,6 +31,7 @@ Shopper #1  | View a list of products | Select something to purchase
 Shopper #2  | View individual product details | Identify the price, description, product rating, prducy image and available sizes
 Shopper #3  | Quickly identify deals, clearance items and special offers | Take advantage of special savings on products I'd like to purchase
 Shopper #4  | Easily view the total of my purchases at any time | Avoid spending to much
+
 *Registration and User Accounts*
 User Id | I want to be able to.. | So that I can...
 | :--- | :--- | :---
