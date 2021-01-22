@@ -23,7 +23,7 @@ Boutique is an E-Commerce webapp which was inspired by Amazon.
     - [BootStrap 4](https://getbootstrap.com/)
     - [Django](https://www.djangoproject.com/)
 ---
-## User Stories
+## User Suggestions
 *Viewing and Navigation*
 User Id | I want to be able to.. | So that I can...
 | :--- | :--- | :---
