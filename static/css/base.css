@@ -1,4 +1,3 @@
-
 html {
     height: 100%;
 }
@@ -58,7 +57,17 @@ body {
 }
 
 .bg-black {
-    background-color: #000 !important;
+    background: #000 !important;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
@@ -84,4 +93,3 @@ body {
         padding-top: 164px;
     }
 }
-
