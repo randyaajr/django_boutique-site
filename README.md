@@ -202,7 +202,7 @@ Apart from that, you also need to create accounts with the following services:
 
 #### Directions
 1. You can clone this repository directly into the editor of your choice by pasting the following command into the terminal:   
-`git clone https://github.com/irinatu17/Art-of-Tea`    
+`git clone https://github.com/randyaajr/django_boutique-site`    
 Alternatively, you can save a copy of this repository by clicking the green button **Clone or download** , then **Download Zip** button, and after extract the Zip file to your folder.      
 In the terminal window of your local IDE change the directory (CD) to the correct file location (directory that you have just created).       
 
