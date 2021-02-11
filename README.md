@@ -275,12 +275,13 @@ You can temporary comment out the current database settings code and just paste 
         'default': dj_database_url.parse("<your Postrgres database URL here>")     
     }
   ```
-Important Note: that's just temporary set up, this URL **should not be committed and published to GitHub** for security reasons, so make sure not to commit your changes to Git while the URL is in the settings.py.     
+Important Note: that's just temporary set up, this URL **should not be committed and published to GitHub** for security reasons, so make sure not to commit your changes to Git while the URL is in the settings.py.   
+  
 9. Migrate the database models to the Postgres database using the following commands in the terminal:    
-`python3 manage.py makemigrations`     
-`python3 manage.py migrate`     
+    `python3 manage.py makemigrations`     
+    `python3 manage.py migrate`     
 10. Load the data fixtures(**categories**, **products**, **itinerary**, **itinerary_items**, **events**) into the  Postgres database using the following command:     
-`python3 manage.py loaddata <fixture_name>`      
+    `python3 manage.py loaddata <fixture_name>`      
 11. Create a **superuser** for the Postgres database by running the following command(*you need to follow the instructions and inserting username,email and password*):      
 `python3 manage.py createsuperuser`     
 12. You need to remove your Postgres URL database from the settings and uncomment the default DATABASE settings code in the settings.py file.    
